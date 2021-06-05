@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+	<title>UTS</title>
+</head>
+<body>
+
+<nav style="background-color: #e3f2fd;" class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Jujur</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Data</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main class="container mt-3">
+    <div class="row">
+        <div class="col-3">
+            <div class="card">
+                <div class="card-header">
+                    Selamat Datang
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Nama : M Aslam Alfarisi</p>
+                    <p class="card-text">Alamat : Sukadana, Bayan KLU</p>
+                    <p class="card-text">No HP : 087859563835</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card">
+                <div class="card-header">
+                    Input data pendaftaran
+                </div>
+                <div class="card-body">
+                    <form action="" method="post">
+                        <div class="form-group">
+                            <label for="nama">Nama</label>
+                            <input type="text" name="nama" id="nama" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="alamat">Alamat</label>
+                            <textarea name="alamat" id="alamat" cols="30" rows="3" class="form-control"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="agama">Agama</label>
+                            <select name="agama" id="agama" class="form-control">
+                                <option value="islam">Islam</option>
+                                <option value="katolik">Kristen</option>
+                                <option value="protestan">Budha</option>
+                                <option value="hindu">Hindu</option>
+                            </select>
+                            <div class="form-group mt-3">
+                                <button type="button" class="btn btn-primary">Simpan</button>
+                            </div>
+                            
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card" style="width: 18rem;">
+                <div class="card-header">
+                    Menu
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><a style="text-decoration: none; color: #212529;"
+                            href="./uts.html">Beranda</a></li>
+                    <li class="list-group-item"><a style="text-decoration: none; color: #212529;"
+                            href="./data.html">Data</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 mt-3">
+        <div style="text-align: center;" class="alert alert-info" role="alert">
+            1901040004 - Muhammad Aslam Alfarisi
+        </div>
+    </div>
+</main>
+	
+</body>
+</html>
